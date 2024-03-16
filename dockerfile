@@ -34,4 +34,4 @@ using the Python base image."
 
 # Run the command to start the Flask application
 CMD ["flask", "run", "--host=0.0.0.0"]
-CMD ["python3", "test-app.py"]
+#CMD ["python3", "test-app.py"]
