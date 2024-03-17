@@ -1,3 +1,4 @@
+from flask import Flask
 import unittest
 from app import app
 from bs4 import BeautifulSoup
@@ -22,3 +23,6 @@ class TestApp(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+
+
